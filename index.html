@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Timé Étudiant en Licence professionnelle Métiers du numérique : conception, rédaction et réalisation web – Parcours intégration et webdesign.">
 
         <link rel="stylesheet" href="Portfolio.css">
        
@@ -17,7 +18,7 @@
         <header class="l-header">
             <nav class="nav bd-grid">
                 <div>
-                    <a href="#" class="nav__logo"></a>
+                    <a href="#" class="nav__logo" name="logo"></a>
                 </div>
 
                 <div class="nav__menu" id="nav-menu">
@@ -46,9 +47,9 @@
                 </div>
 
                 <div class="home__social">
-                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a class="home__social-icon" name="icone1"><i class='bx bxl-linkedin'></i></a>
                   
-                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a class="home__social-icon" name="icone2"><i class='bx bxl-github' ></i></a>
                 </div>
 
                 <div class="home__img">    
@@ -62,7 +63,7 @@
 
                 <div class="about__container bd-grid">
                     <div class="about__img">
-                        <img src="assets/img/about.jpg" alt="">
+                        
                     </div>
 
                     <div>
@@ -153,9 +154,9 @@
 
                 <div class="contact__container bd-grid">
                     <form action="" class="contact__form">
-                        <input type="text" placeholder="Nom" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                       <label for="contact_imput"><input type="text" placeholder="Nom" class="contact__input" id="contact_nom"></label> 
+                        <label for="contact_email"><input type="mail" placeholder="Email" class="contact__input" id="contact_email"></label>
+                        <label for="contact_comment"><textarea name="" id="" cols="0" rows="10" class="contact__input" id="contact_comment"></textarea></label>
                         <input type="button" value="Envoyer" class="contact__button button">
                     </form>
                 </div>
@@ -166,9 +167,9 @@
         <footer class="footer">
             
             <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#" class="footer__icon" name="footer_icone1"><i class='bx bxl-linkedin' ></i></a>
               
-                <a href="#" class="footer__icon"><i class='bx bxl-github' ></i></a>
+                <a href="#" class="footer__icon" name="footer_icone2" ><i class='bx bxl-github' ></i></a>
             </div>
             <p>&#169; Timé | 2021 | Tout droits réservés</p>
         </footer>
