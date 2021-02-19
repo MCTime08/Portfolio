@@ -324,7 +324,7 @@ img{
 }
 
 /* ===== CONTACT =====*/
-.contact__input{
+#contact_nom{
   width: 100%;
   font-size: var(--normal-font-size);
   font-weight: var(--font-semi);
@@ -334,13 +334,36 @@ img{
   outline: none;
   margin-bottom: var(--mb-4);
 }
+
+#contact_email{
+  width: 100%;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi);
+  padding: 1rem;
+  border-radius: .5rem;
+  border: 1.5px solid var(--second-color);
+  outline: none;
+  margin-bottom: var(--mb-4);
+}
+
+#contact_commentaire{
+  width: 100%;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi);
+  padding: 1rem;
+  border-radius: .5rem;
+  border: 1.5px solid var(--second-color);
+  outline: none;
+  margin-bottom: var(--mb-4);
+}
+
 .contact__button{
   display: block;
   border: none;
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
-  margin-left: auto;
+  margin-left: 100px;
 }
 
 /* ===== FOOTER =====*/
