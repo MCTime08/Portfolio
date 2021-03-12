@@ -1,21 +1,31 @@
 {
-  "lang" : "fr",
-  "scope" : "/",
-  "name" : "Porfolio / BALLOT Timé",
-  "short_name": "Portfolio Timé",
-  "start_url" : "index.html",
-  "background-color" : "#FFFFFF",
-  "description" : "Portfolio de Timé",
-  "orientation" : "portrait",
-  "icons": [
-    {
-      "src": "photo.jpg",
-      "sizes": "64x64",
-      "type": "image/jpg",
-    }
-  ],
-    
-    
-  "url": "https://mctime08.github.io/Portfolio/",
+  "dir": "ltr",
+  "lang": "fr",
+  "name": "Portfolio - Timé",
+  "short_name": "B.Timé",
+  "scope": "/",
   "display": "standalone",
+  "start_url": "index.html",
+  "background_color": "#FFFFFF",
+  "theme_color": "transparent",
+  "description": "CV de Timé",
+  "orientation": "portrait",
+  "icons": [{
+    "src": "photo.jpg",
+    "type": "image/jpg",
+    "sizes": "128x128"
+    }, {
+    "src": "photo.jpg",
+    "type": "image/jpg",
+    "sizes": "152x152"
+    }, {
+    "src": "photo.jpg",
+    "type": "image/jpg",
+    "sizes": "144x144"
+    }, {
+    "src": "photo.jpg",
+    "type": "image/jpg",
+    "sizes": "192x192"
+}],
+  "url":"https://mctime08.github.io/Portfolio/"
 }
