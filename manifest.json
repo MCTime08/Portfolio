@@ -2,13 +2,12 @@
   "dir": "ltr",
   "lang": "fr",
   "name": "Portfolio - Timé",
-  "short_name": "B.Timé",
+  "short_name": "Portfolio Timé",
   "scope": "/",
   "display": "standalone",
-  "start_url": "index.html",
   "background_color": "#FFFFFF",
   "theme_color": "transparent",
-  "description": "CV de Timé",
+  "description": "Portfolio de Timé",
   "orientation": "portrait",
   "icons": [{
     "src": "photo.jpg",
@@ -27,5 +26,5 @@
     "type": "image/jpg",
     "sizes": "192x192"
 }],
-  "url":"https://mctime08.github.io/Portfolio/"
+  "start_url":"https://mctime08.github.io/Portfolio/"
 }
