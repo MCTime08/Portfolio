@@ -5,6 +5,7 @@
   "short_name": "Portfolio Timé",
   "scope": "/",
   "display": "standalone",
+  "start_url": "index.html",
   "background_color": "#FFFFFF",
   "theme_color": "transparent",
   "description": "Portfolio de Timé",
@@ -26,5 +27,5 @@
     "type": "image/jpg",
     "sizes": "192x192"
 }],
-  "start_url":"https://mctime08.github.io/Portfolio/"
+  "url":"https://mctime08.github.io/Portfolio/"
 }
