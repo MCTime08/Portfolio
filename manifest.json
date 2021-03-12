@@ -11,11 +11,11 @@
     {
       "src": "photo.jpg",
       "sizes": "64x64",
-      "type": "image/jpg",
+      "type": "image/jpg"
     }
   ],
     
     
   "url": "https://mctime08.github.io/Portfolio/",
-  "display": "standalone",
+  "display": "standalone"
 }
